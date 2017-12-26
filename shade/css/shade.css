@@ -1,0 +1,68 @@
+
+@font-face {
+    font-family: CamptonBoldDEMO;
+    src: url(../fonts/Campton-BoldDEMO.woff);
+}
+
+body {
+  font-family: CamptonBoldDEMO;
+  color: #fff;
+  line-height: 1.42857143;
+  background-color: #f14182;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 72px;
+  padding-bottom: 100px;
+}
+
+.profile h1 {
+  color: #fff;
+  font-size: 60px;
+}
+
+.profile img {
+  border-radius: 50%;
+}
+
+.links ul li{
+  list-style: none;
+  background-color: #c03468;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  font-size: 30px;
+  border-radius: 15px;
+}
+
+.links ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.links ul li span.sharp {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.links ul li.ad {
+  background-color: #a82d5a;
+}
+
+.links ul li span.ad {
+  border: 2px solid #fff;
+  padding: 6px 15px 4px;
+  font-size: 20px;
+  border-radius: 18px;
+}
+
+.logo {
+  margin-top: 70px;
+}
+
+.logo img {
+  width: 185px;
+}
