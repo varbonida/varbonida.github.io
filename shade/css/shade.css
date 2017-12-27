@@ -30,6 +30,10 @@ body {
   width: 28%;
 }
 
+.links ul {
+  padding-left: 0px;
+}
+
 .links ul li{
   list-style: none;
   background-color: #c03468;
