@@ -12,30 +12,32 @@ body {
 }
 
 .container {
-  width: 75%;
+  width: 80%;
+  max-width: 580px;
   margin: 0 auto;
   text-align: center;
-  padding-top: 72px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 90px;
 }
 
 .profile h1 {
   color: #fff;
-  font-size: 60px;
+  /* font-size: 60px; */
 }
 
 .profile img {
   border-radius: 50%;
+  width: 28%;
 }
 
 .links ul li{
   list-style: none;
   background-color: #c03468;
   margin-bottom: 20px;
-  padding-top: 30px;
-  padding-bottom: 25px;
-  font-size: 30px;
+  padding-top: 15px;
+  font-size: 20px;
   border-radius: 15px;
+  height: 45px;
 }
 
 .links ul li a {
