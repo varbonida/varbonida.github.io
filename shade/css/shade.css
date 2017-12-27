@@ -37,11 +37,11 @@ body {
 .links ul li{
   list-style: none;
   background-color: #c03468;
-  margin-bottom: 20px;
-  padding-top: 15px;
-  font-size: 20px;
-  border-radius: 15px;
-  height: 45px;
+  margin-bottom: 15px;
+  padding: 15px 0;
+  font-size: 16px;
+  border-radius: 5px;
+  height: auto;
 }
 
 .links ul li a {
