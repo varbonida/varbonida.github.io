@@ -60,15 +60,16 @@ body {
 
 .links ul li span.ad {
   border: 2px solid #fff;
-  padding: 6px 15px 4px;
-  font-size: 20px;
+  padding: 6px 7px 4px;
+  font-size: 10px;
   border-radius: 18px;
 }
 
 .logo {
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .logo img {
-  width: 160px;
+  width: 50%;
+  max-width: 100px;
 }
