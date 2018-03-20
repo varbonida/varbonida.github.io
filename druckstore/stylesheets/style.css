@@ -1,0 +1,189 @@
+
+body {
+  font-size: 14px;
+  color: #5c5c5c;
+}
+
+.mw-1140 {
+  max-width: 1140px;
+}
+
+.mw-960 {
+  max-width: 960px;
+}
+/* TOP Header */
+.top-header {
+  background-color: #2eabe8;
+  position: relative;
+}
+
+.top-header .nav-link {
+  padding: 6px 1.6rem;
+  color: #fff;
+  font-size: 12px;
+}
+
+/* Middle Header */
+.middle-header {
+  background-color: #1796d4;
+}
+
+.mydruckstore-search .btn {
+  background-color: #f0626e;
+  color: #fff;
+}
+
+.middle-header .nav-link {
+  padding: .5rem .5rem;
+}
+
+.trusted-badge ul {
+  padding-right: 4px
+}
+
+.cart a{
+  font-size: 12px;
+  color: #fff;
+}
+
+.cart-caption {
+  float: left;
+  text-align: right;
+}
+
+.cart-qty {
+  color: #000;
+  font-weight: bold;
+  position: relative;
+  right: 17px;
+  top: 2px;
+}
+
+/* Container Main */
+.menu-main {
+  margin-top: 16px;
+  background-color: #eff3f6;
+}
+
+.menu-main .nav-link {
+  padding: .5rem 1.5rem;
+}
+
+.menu-main a {
+  color: #5c5c5c;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.menu-main a:hover {
+  color: #ff6c00;
+  background-color: #eee;
+}
+
+/* Content */
+.content-main {
+  margin: 20px -15px;
+}
+
+.content {
+  border-left: 5px solid #ff7826;
+}
+
+.content .p-0 {
+  border: 1px solid #fff;
+}
+
+.heading {
+  padding-top: 20px;
+}
+
+/* Sidebar */
+.sidebar ul {
+  margin-top: 20px;
+}
+
+.sidebar a {
+  color: #c4c4c4 !important;
+}
+
+.sidebar .heading h4{
+  font-size: 1.2rem
+}
+
+/* navigation */
+.nav-list li {
+  list-style: none;
+}
+
+.nav-list a {
+  color: #a8a8a8;
+  text-decoration: none;
+}
+
+/* Footer */
+.footer {
+    border-top: solid 3px #2eabe8;
+}
+
+.footer-top {
+  padding-top: 20px;
+}
+
+.footer h5 {
+  font-size: .97rem;
+}
+
+.newsletter-disclaimer {
+  font-weight: 700;
+  font-size: 11px;
+}
+
+.footer-top .btn {
+  width: 100%;
+}
+
+.zahl {
+  border-top: 1px solid #c4c4c4;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+.footer-bottom {
+    background-color: #eff3f6;
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.footer-bottom a{
+  color: #2eabe8;
+  text-decoration: none;
+}
+
+/* responsive */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .navbar-brand {
+    max-width: 75%;
+  }
+  .trusted-badge img {
+    width: 65%;
+  }
+  .cart-img {
+    width: 40% !important;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .navbar-brand {
+    max-width: 70%;
+  }
+  .trusted-badge-nav li {
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width : 1024px) {
+  .trusted-badge li:first-child {
+    width: 26%;
+  }
+}
