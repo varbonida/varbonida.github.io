@@ -1,0 +1,92 @@
+
+@font-face {
+	font-family: 'Metropolis';
+	src: url('../fonts/Metropolis-Thin.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Metropolis-Thin.eot') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../fonts/Metropolis-Thin.woff') format('woff'), /* Modern Browsers */
+	     url('../fonts/Metropolis-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('../fonts/Metropolis-Thin.otf') format('opentype');
+}
+
+body {
+  font-family: Metropolis, Arial, sans-serif, -apple-system;
+}
+
+.hamburger-box {
+  width: 36px;
+  height: 23px;
+  display: inline-block;
+  position: relative;
+}
+
+.hamburger .hamburger-inner:after {
+  width: 18px;
+  right: 0;
+}
+
+h6 {
+  font-weight: 600;
+}
+
+h2, h5 {
+  font-family: Playfair Display,serif,-apple-system;
+  line-height: 1.4;
+}
+
+.headline {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.hl-list li, .tm-list li{
+  padding: 6px;
+  margin-left: 24px;
+}
+
+.video-cont {
+  width: 100%;
+  height: 80%;
+}
+
+.cta-btn {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 10px 50px;
+  border: 2px solid #212529;
+  color: #fff;
+  background: #212529;
+  transition: all .3s ease;
+  text-transform: uppercase;
+}
+
+.cta-btn:hover {
+  background: transparent;
+  color: #212529;
+}
+
+.tm-lists p {
+  font-style: italic;
+}
+
+.process .accordion-button:not(.collapsed) {
+  color: #fff;
+  background: #212529;
+}
+
+.process .accordion-button:focus {
+  border-color: #fff;
+  box-shadow: none;
+}
+
+@media (min-width: 768px) {
+  body {
+      font-size: 16px;
+      line-height: 1.8;
+  }
+
+  h2 {
+    font-size: 32px;
+    line-height: 1.4;
+  }
+}
